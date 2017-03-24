@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+#topParent{
+	width:100%;
+	height:100%;
+}
+
+#topBack{
+	background-color:#595959;
+	float:left;
+	margin-left:10%;
+	width:80%;
+	height:140px;
+	text-align:center;
+}
+
+#imgDiv{
+	display: inline-block;
+}
+
+#logo{
+	width : 120px;
+	height : auto;
+	margin-left:20px;
+	margin-top:30px;
+	
+}
+
+#menuDiv{
+	width:500px;
+	display: inline-block;
+	font-size:20px;
+	color : white;
+}
+
+#menuUl{
+	list-style:none;
+}
+
+#menuUl li{
+	float: left;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#sliderDiv{
+	width:80%;
+	float:left;
+	margin-left:10%;
+	height : 450px;
+	overflow:hidden;
+}
+
+#slider{
+	width:100%;
+	height:450px;
+}
+
+#centerLabelDiv{
+	text-align:center;
+	clear:both;
+	font-size:20px;
+	padding-top:30px;
+}
+
+#mainPerfsDiv{
+	margin-top:20px;
+	text-align:center;
+	margin-left:10%;
+	width:80%;
+}
+
+#mainPerfsDiv div{
+	width:150px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+#mainPerfsDiv img{
+	width : 150px;
+}
+
+.mainPerfs{
+	margin : 10px;
+}
