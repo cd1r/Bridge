@@ -18,6 +18,10 @@
 	</update>
 	
 	<select id="readAllPerformance" resultType="PerformanceVO">
-		select * from tbl_performance;
+		select id, name, main_img_dir from tbl_performance;
+	</select>
+	
+	<select id="readAPerformance" resultType="PerformanceVO">
+		select * from tbl_performance where id = #{id};
 	</select>
 </mapper>

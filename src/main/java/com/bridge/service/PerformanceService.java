@@ -16,7 +16,7 @@ public class PerformanceService {
 	private PerformanceDAO performanceDAO;
 	
 	public PerformanceVO readAPerformance(int id) throws Exception {
-		return performanceDAO.readPerformance(id);
+		return performanceDAO.readAPerformance(id);
 	}
 	
 	public List<PerformanceVO> readAllPerformance() throws Exception {

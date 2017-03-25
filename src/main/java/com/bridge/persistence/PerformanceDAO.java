@@ -21,9 +21,9 @@ public class PerformanceDAO {
 	{
 		
 	}
-	public PerformanceVO readPerformance(int id) throws Exception
+	public PerformanceVO readAPerformance(int id) throws Exception
 	{
-		return null;
+		return session.selectOne(namespace + ".readAPerformance");
 	}
 	
 	public List<PerformanceVO> readAllPerformance() throws Exception

@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".mainPerfsImg").click(function(){
-		location.href = "/";
+		location.href = "/performance?perfId=" + $(this).attr('id');
 	});
 });
 

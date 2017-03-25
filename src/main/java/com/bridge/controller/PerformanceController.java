@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bridge.domain.PerformanceVO;
@@ -19,7 +20,7 @@ import com.bridge.service.PerformanceService;
 
 //@RestController
 @Controller
-@RequestMapping("/pages/*")
+@RequestMapping("/*")
 public class PerformanceController {
 	
 	@Inject
@@ -46,10 +47,10 @@ public class PerformanceController {
 		
 	}
 	
-	@RequestMapping(value="/performance/{id}", method = RequestMethod.GET)
-	public void readAPerformance(@PathVariable("bno") int bno, Model model) throws Exception{
-		
-		model.addAttribute("perfDesc", service.readAPerformance(bno));
+	@RequestMapping(value="/performance", method = RequestMethod.GET)
+	public void readAPerformance(@RequestParam("perfId") int id, Model model) throws Exception{
+		System.out.println(id);
+		model.addAttribute("perfDesc", service.readAPerformance(id));
 		
 	}
 }
