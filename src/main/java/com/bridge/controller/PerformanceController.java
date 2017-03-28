@@ -43,14 +43,20 @@ public class PerformanceController {
 	@RequestMapping(value="/intro", method = RequestMethod.GET)
 	public void intro(Model model) throws Exception{
 		
-		model.addAttribute("perfList", service.readAllPerformance());
+		model.addAttribute("perfList", service.readMainPerformance());
 		
 	}
 	
 	@RequestMapping(value="/performance", method = RequestMethod.GET)
 	public void readAPerformance(@RequestParam("perfId") int id, Model model) throws Exception{
 		System.out.println(id);
-		model.addAttribute("perfDesc", service.readAPerformance(id));
+		model.addAttribute(service.readAPerformance(id));
+		
+	}
+	
+	@RequestMapping(value="/performanceList", method = RequestMethod.GET)
+	public void readAllPerformance(Model model) throws Exception{
+		model.addAttribute("perfList", service.readAllPerformance());
 		
 	}
 }

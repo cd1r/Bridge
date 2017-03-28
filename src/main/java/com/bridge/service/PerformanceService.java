@@ -15,6 +15,10 @@ public class PerformanceService {
 	@Inject
 	private PerformanceDAO performanceDAO;
 	
+	public List<PerformanceVO> readMainPerformance() throws Exception {
+		return performanceDAO.readMainPerformance();
+	}
+	
 	public PerformanceVO readAPerformance(int id) throws Exception {
 		return performanceDAO.readAPerformance(id);
 	}

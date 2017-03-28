@@ -22,21 +22,19 @@
 	font-style:normal;
 }
 
- a:link { color: white; text-decoration: none;}
- a:visited { color: white; text-decoration: none;}
- a:hover { color: white; text-decoration: none;}
- 
+
 #topParent{
 	width:100%;
 	height:100%;
 }
 
+.backDiv{
+	width:100%;
+}
+
 #topBack{
 	font-family:NanumSquareB;
 	background-color:#595959;
-	float:left;
-	margin-left:10%;
-	width:80%;
 	height:140px;
 	text-align:center;
 }
@@ -48,7 +46,6 @@
 #logo{
 	width : 120px;
 	height : auto;
-	margin-left:20px;
 	margin-top:30px;
 	
 }
@@ -58,6 +55,7 @@
 	display: inline-block;
 	font-size:20px;
 	color : white;
+	margin-left:70px;
 }
 
 #menuUl{
@@ -66,47 +64,83 @@
 
 #menuUl li{
 	float: left;
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:20px;
+	padding-right:20px;
 }
 
-#sliderDiv{
-	width:80%;
-	float:left;
-	margin-left:10%;
-	height : 450px;
-	overflow:hidden;
-}
-
-#slider{
-	width:100%;
-	height:450px;
-}
-
-#centerLabelDiv{
-	text-align:center;
-	clear:both;
+.perfList{
+	font-family:NanumSquareR;
 	font-size:20px;
-	padding-top:30px;
+	background-color:#ededed;
 }
 
-#mainPerfsDiv{
-	margin-top:20px;
-	text-align:center;
-	margin-left:10%;
-	width:80%;
+.leftTd{
+	padding:15px;
+	width:170px;
 }
 
-#mainPerfsDiv div{
+.midTd{
+	width:400px;
+}
+
+.rightTd{
 	width:150px;
-	display:inline-block;
-	cursor:pointer;
 }
 
-#mainPerfsDiv img{
-	width : 150px;
+.mainPoster{
+	width:150px;
 }
 
-.mainPerfs{
-	margin : 10px;
+#perfNameDiv{
+	font-size:30px;
+}
+
+#ratingDiv{
+	margin-top:3px;
+}
+
+#rating{
+	color:#ff9600;
+}
+
+#directorDiv{
+	margin-top:15px;
+}
+
+#characterDiv{
+	margin-top:3px;
+}
+
+#termDiv{
+	margin-top:3px;
+}
+
+.descBtn{
+	border: 0;
+	box-shadow:none;
+	cursor : pointer;
+	background-color:#004986;
+	color : white;
+	font-family:NanumSquareR;
+	font-size:20px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.reserveBtn{
+	border: 0;
+	box-shadow:none;
+	cursor : pointer;
+	background-color:#4f4f4f;
+	color : white;
+	font-family:NanumSquareR;
+	font-size:20px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
 }

@@ -28,7 +28,7 @@
             </div>
             <div id="menuDiv">
             	<ul id="menuUl">
-                	<li>공연</li>
+                	<li><a href="/performanceList">공연</a></li>
                     <li>공연장</li>
                     <li>예매조회/취소</li>
                     <li>로그인</li>

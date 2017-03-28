@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:'NanumSquareB';
+	src:url('../webfonts/nanumsquareb.eot');
+	src:local('☺'), url('../webfonts/nanumsquareb.woff') format('woff');
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'NanumSquareR';
+	src:url('../webfonts/nanumsquarer.eot');
+	src:local('☺'), url('../webfonts/nanumsquarer.woff') format('woff');
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'NanumSquareEB';
+	src:url('../webfonts/nanumsquareb.eot');
+	src:local('☺'), url('../webfonts/nanumsquareb.woff') format('woff');
+	font-style:normal;
+}
+
+#topParent{
+	width:100%;
+	height:100%;
+}
+
+.backDiv{
+	width:100%;
+}
+
+#topBack{
+	font-family:NanumSquareB;
+	background-color:#595959;
+	height:140px;
+	text-align:center;
+}
+
+#imgDiv{
+	display: inline-block;
+}
+
+#logo{
+	width : 120px;
+	height : auto;
+	margin-top:30px;
+	
+}
+
+#menuDiv{
+	width:500px;
+	display: inline-block;
+	font-size:20px;
+	color : white;
+	margin-left:70px;
+}
+
+#menuUl{
+	list-style:none;
+}
+
+#menuUl li{
+	float: left;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#descTable{
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	clear:both;
+	background-color:#efefef;
+}
+
+#descTable .descTr td{
+	width:600px;
+}
+
+#tableDiv table{
+	margin-left:20px;
+}
+
+#poster{
+	width : 200px;
+}
+
+.descTr{
+	font-family:NanumSquareR;
+	font-size:20px;
+}
+
+.descTr td{
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#titleTd{
+	font-family:NanumSquareB;
+	font-size:30px;
+}
+
+#rateTd{
+	padding-bottom:15px;
+}
+
+#rateStar{
+	color:#f1b818;
+	font-size:25px;
+	margin-left:10px;
+}
+
+#resBtn{
+	border: 0;
+	box-shadow:none;
+	cursor : pointer;
+	background-color:#5d5d5d;
+	color : white;
+	font-family:NanumSquareR;
+	font-size:20px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+#videoDiv{
+	text-align:center;
+}
+
+#descPosterDiv{
+	text-align:center;
+}
+
+#descPoster{
+	width:845px;
+	height:auto;
+}
+
+#rateBackDiv{
+	padding-top:10px;
+}
+
+#writeDiv{
+	padding-bottom:30px;
+	text-align:center;
+	background-color:#efefef;
+	font-family:NanumSquareR;
+	font-size:20px;
+	width:845px;
+}
+
+#starsDiv{
+	display:inline-block;
+	margin-left:20px;
+	margin-right:20px;
+	font-size:27px;
+	color:#f1b818;
+}
+
+#writeContent{
+	width:400px;
+	height:30px;
+}
+
+#registBtn{
+	border: 0;
+	box-shadow:none;
+	cursor : pointer;
+	background-color:#5d5d5d;
+	color : white;
+	font-family:NanumSquareR;
+	font-size:15px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+}

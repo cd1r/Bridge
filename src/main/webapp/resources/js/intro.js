@@ -4,7 +4,7 @@ $(document).ready(function() {
 	});
 });
 
-function callMainPerformance(){
+/*function callMainPerformance(){
 	$.ajax({
 		type: "get",
 		url: "/home/mainPerList",
@@ -14,4 +14,4 @@ function callMainPerformance(){
 			$("#perf_list_ul").append("<li>" + data + "</li>")
 		}
 	});
-}
+}*/

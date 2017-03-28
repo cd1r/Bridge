@@ -18,6 +18,10 @@
 	</update>
 	
 	<select id="readAllPerformance" resultType="PerformanceVO">
+		select * from tbl_performance;
+	</select>
+	
+	<select id="readMainPerformance" resultType="PerformanceVO">
 		select id, name, main_img_dir from tbl_performance;
 	</select>
 	

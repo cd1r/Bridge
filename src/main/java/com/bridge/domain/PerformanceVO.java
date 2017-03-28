@@ -12,6 +12,7 @@ public class PerformanceVO {
 	double rate;
 	String main_img_dir;
 	String desc_img_dir;
+	String video_url;
 	
 	public int getId() {
 		return id;
@@ -73,6 +74,10 @@ public class PerformanceVO {
 	public void setDesc_img_dir(String desc_img_dir) {
 		this.desc_img_dir = desc_img_dir;
 	}
-
-	
+	public String getVideo_url() {
+		return video_url;
+	}
+	public void setVideo_url(String video_url) {
+		this.video_url = video_url;
+	}
 }
